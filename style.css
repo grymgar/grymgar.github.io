@@ -1,0 +1,46 @@
+nav {
+	color:white;
+	background-color:lightgray;
+	font-family:"Rockwell", Times, sans-serif;
+	text-align:center;
+	border: 2px solid black;
+}
+
+
+body {
+	background-color:gray;
+	margin:20px 20px 20px 20px;
+}
+
+
+h1 {
+	color:purple;
+	background-color:gray;
+	font-family:"Rockwell", Times, sans-serif;
+	text-align:center;
+	border: 2px solid black;
+}
+
+
+
+h2 {
+	color:lightgray;
+	font-family:"Rockwell", Times, serif;
+	text-align:left;
+}
+
+
+p {
+	color:black;
+	font-family:"Trebuchet MS", verdana, sans-serif;
+	text-align:left;
+}
+
+ul {
+	color:black;
+	font-family:"Trebuchet MS", verdana, sans-serif;
+}
+
+img {
+	border: 2px solid black;
+}
