@@ -492,7 +492,7 @@ footer span{
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 360px) {
 	.home .home-content .text-2{
 		font-size: 50px;
 	}
