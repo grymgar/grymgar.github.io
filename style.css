@@ -120,7 +120,7 @@ html{
 }
 
 .home .home-content .text-3 span{
-	color: purple;
+	color: lime;
 	font-weight: 500;
 }
 .home .home-content a{
@@ -215,7 +215,7 @@ section .title::after{
 }
 
 .about .about-content .right .text span{
-	color: purple;
+	color: lime;
 }
 
 .about .about-content .right p{
