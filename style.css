@@ -450,7 +450,7 @@ footer span{
 		padding: 10px 30px;
 	}
 	.max-width{
-	    max-width: 800px;
+	    max-width: 100%;
 	}
 	.about .about-content .column{
 		width: 100%;
