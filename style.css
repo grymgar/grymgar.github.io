@@ -8,11 +8,9 @@
 html{
 	scroll-behavior: smooth;
 }
-body{
-	background-color: #333;
-}
+
 .max-width{
-	max-width: 1300px;
+	max-width: none;
 	padding: 0 80px;
 	margin: auto;
 }
