@@ -498,8 +498,16 @@ footer span{
 	.home .home-content .text-3{
 		font-size: 27px;
 	}
+	.about-content{
+		flex-direction: column;
+	}
+	.services .serv-content{
+		width: 100%;
+		flex-direction: column;
+	}
+
 }
-@media (max-width: 393px) {
+@media (max-width: 412px) {
 	.about-content{
 		flex-direction: column;
 	}
