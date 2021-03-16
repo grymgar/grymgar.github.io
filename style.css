@@ -8,6 +8,9 @@
 html{
 	scroll-behavior: smooth;
 }
+body{
+	background-color: #333;
+}
 .max-width{
 	max-width: 1300px;
 	padding: 0 80px;
