@@ -38,7 +38,7 @@ html{
 	font-weight: 600;
 }
 .navbar .logo a span{
-	color: purple;
+	color: lime;
 	transition: 0.3s ease;
 }
 .navbar.sticky .logo a span{
