@@ -474,7 +474,6 @@ footer span{
 		margin-bottom: 35px;
 	}
 }
-
 @media (max-width: 690px) {
 	.max-width{
 		padding: 0 23px;
@@ -492,7 +491,6 @@ footer span{
 		width: 100%;
 	}
 }
-
 @media (max-width: 500px) {
 	.home .home-content .text-2{
 		font-size: 50px;
