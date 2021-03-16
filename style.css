@@ -499,6 +499,18 @@ footer span{
 		font-size: 27px;
 	}
 }
+@media (max-width: 360px) {
+	.about-content{
+		flex-direction: column;
+	}
+	.services .serv-content{
+		width: 25%;
+		flex-direction: column;
+	}
+	.card{
+		width: 360px;
+	}
+}
 
 
 
