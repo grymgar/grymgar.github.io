@@ -292,7 +292,9 @@ section .title::after{
 	align-items: left;
 }
 .projects .projects-content .center p{
-	text-align: left;
+	text-align: justify;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 iframe{
