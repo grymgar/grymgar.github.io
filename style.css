@@ -286,7 +286,7 @@ section .title::after{
 
 /* Projects section styling */
 .projects .title::after{
-	content: "things I've made";
+	content: "media";
 }
 .projects-content{
 	align-items: left;
