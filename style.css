@@ -289,10 +289,10 @@ section .title::after{
 	content: "things I've made";
 }
 .projects-content{
-	align-items: center;
+	align-items: left;
 }
-.projects .projects-content .center{
-	text-align: center;
+.projects .projects-content .center p{
+	text-align: left;
 }
 
 iframe{
@@ -423,11 +423,21 @@ footer span{
 		margin-left: 0px;
 	}
 }
+.about .about-content .right p{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
 @media (max-width: 1104px){
 	.about .about-content .left img{
 	height: 350px;
 	width: 350px;
 }
+.about .about-content .right p{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
 @media (max-width: 991px){
 	.max-width{
 		padding: 0 50px;
@@ -514,7 +524,11 @@ footer span{
 	.services .serv-content .card{
 		width: 100%;
 	}
+	.about .about-content .right p{
+	margin-right: 10px;
+	margin-left: 10px;
 }
+
 @media (max-width: 500px) {
 	.home .home-content .text-2{
 		font-size: 50px;
@@ -529,8 +543,11 @@ footer span{
 		width: 100%;
 		flex-direction: column;
 	}
-
+	.about .about-content .right p{
+	margin-right: 10px;
+	margin-left: 10px;
 }
+
 @media (max-width: 412px) {
 	.about-content{
 		flex-direction: column;
@@ -540,6 +557,10 @@ footer span{
 		flex-direction: column;
 	}
 }
+.about .about-content .right p{
+	margin-right: 10px;
+	margin-left: 10px;
+}
 @media (max-width: 360px) {
 	.about-content{
 		flex-direction: column;
@@ -548,6 +569,10 @@ footer span{
 		width: 100%;
 		flex-direction: column;
 	}
+	.about .about-content .right p{
+	margin-right: 10px;
+	margin-left: 10px;
+}
 	
 }
 
