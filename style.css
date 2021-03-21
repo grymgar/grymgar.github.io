@@ -297,14 +297,20 @@ section .title::after{
 	margin-left: 10px;
 }
 
-iframe{
-	width: 100%;
-	margin: 1px auto;
-	display: block;
-	padding: 0;
-	border: none;
-	width: value;
-	height: value;
+.wrap-element {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.wrapped-iframe {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 
