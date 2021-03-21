@@ -293,8 +293,8 @@ section .title::after{
 }
 .projects .projects-content .center p{
 	text-align: justify;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 50px;
+	margin-left: 50px;
 }
 
 .wrap-element {
