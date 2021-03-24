@@ -34,7 +34,7 @@ html{
 }
 .navbar .logo a{
 	color: #fff;
-	font-size: 35px;
+	font-size: 25px;
 	font-weight: 600;
 }
 .navbar .logo a span{
@@ -52,7 +52,7 @@ html{
 .navbar .menu li a{
 	display: block;
 	color: #fff;
-	font-size: 18px;
+	font-size: 13px;
 	font-weight: 500;
 	margin-left: 25px;
 	transition: color 0.3s ease;
