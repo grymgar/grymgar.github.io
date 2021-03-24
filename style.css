@@ -57,6 +57,10 @@ html{
 	margin-left: 25px;
 	transition: color 0.3s ease;
 }
+.menu i{
+	font-size: 12px;
+}
+
 .navbar .menu li a:hover{
 	color: purple;
 }
@@ -496,6 +500,7 @@ footer span{
 		left: -100%;
 		top: 0;
 		background: #111;
+		opacity: 92%;
 		text-align: center;
 		padding-top: 80px;
 		transition: all 0.3s ease;
@@ -509,7 +514,7 @@ footer span{
 	.navbar .menu li a{
 		display: inline-block;
 		margin: 20px 0;
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.home .home-content .text-2{
 		font-size: 70px;
@@ -570,8 +575,8 @@ footer span{
 		flex-direction: column;
 	}
 }
-	
 
+	
 @media (max-width: 502px) {
 	.home .home-content .text-2{
 		font-size: 50px;
