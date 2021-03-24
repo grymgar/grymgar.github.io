@@ -319,13 +319,18 @@ section .title::after{
 	content: "media";
 }
 .projects-content{
-	align-items: left;
+	align-items: center;
 }
-.projects .projects-content .center p{
-	text-align: justify;
-	margin-right: 50px;
-	margin-left: 50px;
-}
+.projects .projects-content .center .row .column .box p{
+    width: 100%;
+    text-align: justify;
+    display: block;
+    padding: 50px 0 50px 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
 
 .wrap-element {
   position: relative;
