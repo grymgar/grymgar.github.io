@@ -193,6 +193,10 @@ section .title::after{
 	align-items: center;
 	justify-content: space-between;
 }
+.services .serv-header .card{
+	display: block;
+	align-items: center;
+}
 
 .about .about-content .left{
 	width: 45%;
@@ -236,7 +240,7 @@ section .title::after{
 }
 .services .title::after{
 	background: #111;
-	content:"my history";
+	content: "my history";
 }
 .services .serv-content .card{
 	width: calc(33% - 20px);
@@ -246,13 +250,37 @@ section .title::after{
 	padding: 20px 25px;
 	cursor: pointer;
 }
+.services .row .column{
+	width: 150px;
+	background: #222;
+	text-align: center;
+	border-radius: 6px;
+	padding: 20px 25px;
+	cursor: pointer;
+}
+.services .row .column{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+}
 .services .serv-content .card:hover{
+	background: purple;
+}
+.services .row .column:hover{
 	background: purple;
 }
 .services .serv-content .card .box{
 	transition: all 0.3s ease;
 }
+.services .row .column .box{
+	transition: all 0.3s ease;
+}
 .services .serv-content .card:hover .box{
+	transform: scale(1.05);
+}
+.services .row .column:hover .box{
 	transform: scale(1.05);
 }
 .services .serv-content .card i{
@@ -260,18 +288,13 @@ section .title::after{
 	color: lime;
 	transition: color 0.3s ease;
 }
-.services .serv-content .card a{
-	display: inline-block;
-	background: #222;
-	color: #fff;
-	font-size: 20px;
-	font-weight: 500;
-	padding: 10px 30px;
-	margin-top: 20px;
-	border-radius: 6px;
-	border: 2px solid purple;
-	transition: all 0.3s ease;
+.services .row .column i{
+	font-size: 50px;
+	color: lime;
+	transition: color 0.3s ease;
 }
+
+
 .services .serv-content .card:hover a{
 	color: #fff;
 	background: purple;
@@ -280,6 +303,9 @@ section .title::after{
 	transition: all 0.3s ease;
 }
 .services .serv-content .card:hover i{
+	color: #fff;
+}
+.services .row .column:hover i{
 	color: #fff;
 }
 .services .serv-content .card .text{
