@@ -29,7 +29,7 @@ $(document).ready(function(){
 	
 	//typing animation script
 	var typed= new Typed(".typing", {
-		strings: ["YouTuber", "Twitch Streamer", "Editor", "Aspiring Public Historian", "Freelancer"],
+		strings: ["YouTuber", "Twitch Streamer", "Editor", "Aspiring Public Historian", "Freelancer", "Experienced Professional"],
 		typeSpeed: 100,
 		backSpeed: 60,
 		loop: true
