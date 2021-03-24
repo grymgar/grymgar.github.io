@@ -261,15 +261,12 @@ section .title::after{
     width: 100%;
     display: block;
     margin-bottom: 20px;
-  }
+}
 
-}
 .services .serv-content .card:hover{
-	background: purple;
+	background: #222;
 }
-.services .row .column:hover{
-	background: purple;
-}
+
 .services .serv-content .card .box{
 	transition: all 0.3s ease;
 }
@@ -279,7 +276,7 @@ section .title::after{
 .services .serv-content .card:hover .box{
 	transform: scale(1.05);
 }
-.services .row .column:hover .box{
+.services .row .column:hover i{
 	transform: scale(1.05);
 }
 .services .serv-content .card i{
