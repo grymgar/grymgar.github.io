@@ -61,7 +61,7 @@ html{
 	color: purple;
 }
 .navbar.sticky .menu li a:hover{
-	color: #fff;
+	color: lime;
 }
 
 /*menu btn styling*/
