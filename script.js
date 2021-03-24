@@ -22,6 +22,9 @@ $(document).ready(function(){
 		$('.navbar .menu').toggleClass("active");
 		$('.menu-btn i').toggleClass("active");
 	});
+	$('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  	});
 });
 	
 	//typing animation script
