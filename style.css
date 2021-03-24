@@ -610,11 +610,15 @@ footer span{
 	margin-left: 50px;
 }
 @media (max-width: 360px) {
+	.about .about-content .left img{
+	width: 100%;
+	}
 	.about-content{
 		flex-direction: column;
 	}
 	.services .serv-content{
 		width: 100%;
+		display: flex;
 		flex-direction: column;
 	}
 	.about .about-content .right p{
