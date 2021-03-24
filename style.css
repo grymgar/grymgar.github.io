@@ -256,7 +256,6 @@ section .title::after{
 	text-align: center;
 	border-radius: 6px;
 	padding: 20px 25px;
-	cursor: pointer;
 }
 .services .row .column{
     width: 100%;
@@ -292,6 +291,7 @@ section .title::after{
 	font-size: 50px;
 	color: lime;
 	transition: color 0.3s ease;
+	cursor: pointer;
 }
 
 
