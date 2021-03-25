@@ -151,6 +151,7 @@ section{
 }
 .about, .services, .contact, .projects, footer{
 	font-family: 'Poppins', sans-serif;
+	background: #F6F6F8;
 }
 .about .about-content,
 .services .serv-content,
@@ -183,7 +184,7 @@ section .title::after{
 	font-size: 20px;
 	color: lime;
 	padding: 5px;
-	background: #fff;
+	background: #F6F6F8;
 	transform: translateX(-50%);
 }
 /*about style section*/
