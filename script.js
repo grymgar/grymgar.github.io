@@ -21,6 +21,7 @@ $(document).ready(function(){
 	$('.menu-btn').click(function(){
 		$('.navbar .menu').toggleClass("active");
 		$('.menu-btn i').toggleClass("active");
+		$('')
 	});
 	$('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
@@ -29,7 +30,7 @@ $(document).ready(function(){
 	
 	//typing animation script
 	var typed= new Typed(".typing", {
-		strings: ["YouTuber", "Twitch Streamer", "Editor", "Aspiring Public Historian", "Freelancer", "Experienced Professional"],
+		strings: ["Learning", "Editing", "Creating", "Aspiring", "Freelancing", "Experienced", "Hardworking", "Compassionate", "Podcasting", "Coding", "Informed"],
 		typeSpeed: 100,
 		backSpeed: 60,
 		loop: true
