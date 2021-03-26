@@ -93,10 +93,19 @@ html{
 	pointer-events: none;
 	transition: all 0.3s ease;
 }
+.scroll-up-btn:hover{
+	transform: scale(1.05);
+	transition: all 0.3s ease;
+}
 .scroll-up-btn.show{
 	bottom: 30px;
 	opacity: 1;
 	pointer-events: auto;
+}
+.scroll-up-btn i:hover{
+	color: lime;
+	transform: scale(1.05);
+	transition: all 0.3s ease;
 }
 
 /* home section styling */
