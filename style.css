@@ -25,7 +25,7 @@ html{
 }
 .navbar.sticky{
 	padding: 15px 0;
-	background: purple;
+	background: #222;
 }
 .navbar .max-width{
 	display: flex;
@@ -33,7 +33,7 @@ html{
 	justify-content: space-between;
 }
 .navbar .logo a{
-	color: #fff;
+	color: #f6f6f8;
 	font-size: 25px;
 	font-weight: 600;
 }
@@ -42,8 +42,11 @@ html{
 	transition: 0.3s ease;
 }
 .navbar.sticky .logo a span{
-	color: #fff;
-
+	color: #f6f6f8;
+}
+.navbar.sticky .logo a span:hover{
+	color: lime;
+	transition: 0.3s ease;
 }
 .navbar .menu li{
 	list-style: none;
@@ -388,7 +391,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
 	font-size: 25px;
-	color: purple;
+	color: lime;
 }
 .contact .contact-content .info .head{
 	font-weight: 500;
