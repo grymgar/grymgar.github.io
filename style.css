@@ -45,6 +45,7 @@ html{
 }
 .navbar .logo a span{
 	color: lime;
+	text-shadow: 2px 4px black;
 	transition: 0.3s ease;
 }
 .navbar.sticky .logo a span{
