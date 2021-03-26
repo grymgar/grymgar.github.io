@@ -160,7 +160,8 @@ section{
 }
 .about, .services, .contact, .projects, footer{
 	font-family: 'Poppins', sans-serif;
-	background: #F6F6F8;
+	background: url("images/GrayWood.jpg") no-repeat center;
+	color: #f6f6f8;
 }
 .about .about-content,
 .services .serv-content,
@@ -174,6 +175,7 @@ section .title{
 	margin-bottom: 60px;
 	padding-bottom: 20px;
 	font-family: 'Ubuntu', sans-serif;
+	color: #f6f6f8;
 }
 section .title::before{
 	content:"";
@@ -182,8 +184,9 @@ section .title::before{
 	left: 50%;
 	width: 180px;
 	height: 3px;
-	background: #111;
+	background: #f6f6f8;
 	transform: translateX(-50%);
+	color: #f6f6f8;
 }
 
 section .title::after{
@@ -191,15 +194,17 @@ section .title::after{
 	bottom: -12px;
 	left: 50%;
 	font-size: 20px;
-	color: lime;
+	color: #f6f6f8;
 	padding: 5px;
-	background: #F6F6F8;
+	background: transparent;
 	transform: translateX(-50%);
 }
 /*about style section*/
+.about .title::before{
+	color: #f6f6f8;
+}
 
 .about .title::after{
-	content: "who I am";
 }
 .about .about-content,
 .services .serv-content{
@@ -255,7 +260,6 @@ section .title::after{
 }
 .services .title::after{
 	background: #111;
-	content: "my history";
 }
 .services .serv-content .card{
 	width: calc(33% - 20px);
@@ -328,7 +332,6 @@ section .title::after{
 
 /* Projects section styling */
 .projects .title::after{
-	content: "media";
 }
 .projects-content{
 	align-items: center;
@@ -358,7 +361,6 @@ section .title::after{
 /* contact section styling*/
 
 .contact .title::after{
-	content: "get in touch";
 }
 .contact .contact-content .column{
 	width: calc(50% - 30px);
@@ -367,9 +369,11 @@ section .title::after{
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 10px;
+	color: lime;
 }
 .contact .contact-content .left p{
 	text-align: justify;
+	color: #f6f6f8;
 }
 .contact .contact-content .left .icons{
 	margin: 10px 0;
@@ -388,9 +392,10 @@ section .title::after{
 }
 .contact .contact-content .info .head{
 	font-weight: 500;
+	color: #f6f6f8;
 }
 .contact .contact-content .info .sub-title{
-	color: #333;
+	color: lime;
 }
 .contact .right form .fields{
 	display: flex;
