@@ -133,6 +133,9 @@ html{
 	color: #fff;
 	min-height:500px;
 	font-family: 'Ubuntu', sans-serif;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: lime;
 }
 .home .max-width{
 	margin: auto 0 auto 40px;
@@ -179,6 +182,9 @@ section{
 	font-family: 'Poppins', sans-serif;
 	background: url("images/GrayWood.jpg") no-repeat center;
 	color: #f6f6f8;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: lime;
 }
 .about .about-content,
 .services .serv-content,
@@ -499,10 +505,20 @@ footer span{
 .about .about-content .left img{
 	height: 350px;
 	width: 350px;
+	margin-left: 400px;
+}
+@media (max-width: 1640px){
+	.about .about-content .left img{
+	height: 350px;
+	width: 350px;
+	margin-left: 50px;
+}
+.about .about-content .right p{
+	margin-right: 50px;
 	margin-left: 50px;
 }
 
-@media (max-width: 1104px){
+@media (max-width: 1106px){
 	.about .about-content .left img{
 	height: 350px;
 	width: 350px;
