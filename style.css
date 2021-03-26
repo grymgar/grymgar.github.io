@@ -258,6 +258,7 @@ section .title::after{
 	font-weight: 600;
 	margin-bottom: 10px;
 	margin-left: 35px;
+	text-shadow: 2px 4px black;
 }
 
 .about .about-content .right .text span{
@@ -414,6 +415,7 @@ section .title::after{
 .contact .contact-content .info .head{
 	font-weight: 500;
 	color: #f6f6f8;
+	text-shadow: 2px 4px black;
 }
 .contact .contact-content .info .sub-title{
 	color: lime;
@@ -475,11 +477,12 @@ section .title::after{
 
 /*footer section styling*/
 footer{
-	background: #111;
+	background: #222;
 	padding: 20px 23px;
 }
 footer span{
 	color: lime;
+	text-shadow: 2px 4px black;
 }
 
 
