@@ -181,9 +181,9 @@ section{
 	font-family: 'Poppins', sans-serif;
 	background: url("images/GrayWood.jpg") no-repeat center;
 	color: #f6f6f8;
-	border-bottom-style: solid;
+	border-bottom-style: groove;
 	border-bottom-width: 4px;
-	border-bottom-color: lime;
+	border-bottom-color: #333;
 	text-shadow: 2px 2px black;
 }
 .about .about-content,
