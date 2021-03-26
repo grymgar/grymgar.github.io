@@ -29,6 +29,9 @@ html{
 	border-bottom-style: solid;
 	border-bottom-width: 4px;
 	border-bottom-color: lime;
+	border-top-style: solid;
+	border-top-width: 4px;
+	border-top-color: #222;
 }
 .navbar .max-width{
 	display: flex;
