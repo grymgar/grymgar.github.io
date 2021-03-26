@@ -141,6 +141,7 @@ html{
 	font-size: 75px;
 	font-weight: 600;
 	margin-left: -3px;
+	text-shadow: 2px 4px black;
 }
 .home .home-content .text-3{
 	font-size: 40px;
@@ -188,6 +189,7 @@ section .title{
 	position: relative;
 	text-align: center;
 	font-size: 40px;
+	text-shadow: 2px 4px black;
 	font-weight: 500;
 	margin-bottom: 60px;
 	padding-bottom: 20px;
@@ -204,6 +206,7 @@ section .title::before{
 	background: #f6f6f8;
 	transform: translateX(-50%);
 	color: #f6f6f8;
+	text-shadow: 2px 4px black;
 }
 
 section .title::after{
@@ -211,6 +214,7 @@ section .title::after{
 	bottom: -12px;
 	left: 50%;
 	font-size: 20px;
+	text-shadow: 2px 4px black;
 	color: #f6f6f8;
 	padding: 5px;
 	background: transparent;
