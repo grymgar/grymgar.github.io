@@ -32,6 +32,8 @@ html{
 	border-top-style: solid;
 	border-top-width: 4px;
 	border-top-color: #222;
+	box-shadow:1px 1px 1px 1px #000000 inset;
+    pointer-events: none;
 }
 .navbar .max-width{
 	display: flex;
