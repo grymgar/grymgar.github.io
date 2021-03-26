@@ -81,7 +81,7 @@ html{
 
 /*menu btn styling*/
 .menu-btn{
-	color: #fff;
+	color: lime;
 	font-size: 23px;
 	cursor: pointer;
 	display: none;
