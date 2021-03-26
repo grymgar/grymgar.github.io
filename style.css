@@ -134,7 +134,7 @@ html{
 	min-height:500px;
 	font-family: 'Ubuntu', sans-serif;
 	border-bottom-style: solid;
-	border-bottom-width: 4px;
+	border-bottom-width: 8px;
 	border-bottom-color: lime;
 }
 .home .max-width{
