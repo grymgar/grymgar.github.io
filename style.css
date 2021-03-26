@@ -152,6 +152,7 @@ html{
 .home .home-content .text-3 span{
 	color: lime;
 	font-weight: 500;
+	text-shadow: 2px 4px black;
 }
 .home .home-content a{
 	display: inline-block;
