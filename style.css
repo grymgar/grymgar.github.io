@@ -68,7 +68,7 @@ html{
 }
 
 .navbar .menu li a:hover{
-	color: purple;
+	color: lime;
 }
 .navbar.sticky .menu li a:hover{
 	color: lime;
