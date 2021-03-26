@@ -8,7 +8,7 @@
 html{
 	scroll-behavior: smooth;
 }
-.scrollGradient {
+.scrollGradient .navbar.sticky{
   background: 
     linear-gradient(#37b3b7 33%, rgba(55,179,183, 0)),
     linear-gradient(rgba(55,179,183, 0), #37b3b7 66%) 0 100%,
