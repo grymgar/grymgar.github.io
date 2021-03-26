@@ -222,6 +222,7 @@ section .title::after{
 	font-size: 25px;
 	font-weight: 600;
 	margin-bottom: 10px;
+	margin-left: 35px;
 }
 
 .about .about-content .right .text span{
