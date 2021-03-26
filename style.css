@@ -8,6 +8,17 @@
 html{
 	scroll-behavior: smooth;
 }
+.scrollGradient {
+  background: 
+    linear-gradient(#37b3b7 33%, rgba(55,179,183, 0)),
+    linear-gradient(rgba(55,179,183, 0), #37b3b7 66%) 0 100%,
+    radial-gradient(farthest-side at 50% 0, rgba(34,34,34, 0.5), rgba(0,0,0,0)),
+    radial-gradient(farthest-side at 50% 100%, rgba(34,34,34, 0.5), rgba(0,0,0,0)) 0 100%;
+  background-color: #37b3b7;
+  background-repeat: no-repeat;
+  background-attachment: local, local, scroll, scroll;
+  background-size: 100% 45px, 100% 45px, 100% 15px, 100% 15px;
+}
 
 .max-width{
 	max-width: 1300px;
