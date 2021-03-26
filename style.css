@@ -8,17 +8,48 @@
 html{
 	scroll-behavior: smooth;
 }
-.scrollGradient .navbar.sticky{
-  background: 
-    linear-gradient(#37b3b7 33%, rgba(55,179,183, 0)),
-    linear-gradient(rgba(55,179,183, 0), #37b3b7 66%) 0 100%,
-    radial-gradient(farthest-side at 50% 0, rgba(34,34,34, 0.5), rgba(0,0,0,0)),
-    radial-gradient(farthest-side at 50% 100%, rgba(34,34,34, 0.5), rgba(0,0,0,0)) 0 100%;
-  background-color: #37b3b7;
-  background-repeat: no-repeat;
-  background-attachment: local, local, scroll, scroll;
-  background-size: 100% 45px, 100% 45px, 100% 15px, 100% 15px;
+html,body{margin:0;}
+header{
+	position: fixed;
+	top:0;
+	height: 125px;
+	width: 100%;
+	background: white;
 }
+
+main{
+	margin-top: 128px;
+}
+
+@supports (height: 100vh) {	
+	body{	
+		background: linear-gradient(to right top, #0089f2 50%, #DDD 50%);
+		background-size: 100% calc(100% - 100vh + 129px);
+		background-repeat: no-repeat;
+	}
+
+	body:before{
+		content:'';
+		position: fixed;
+		top: 128px;
+		bottom: 0;
+		width: 100%;
+		z-index: -1;
+		background: white;
+	}
+}
+
+
+// Not demo related
+body{
+		font-family: "Open Sans";
+		font-size: 1.25rem;
+}
+main,header{
+	padding: 10px 10%;
+	box-sizing: border-box;
+}
+
 
 .max-width{
 	max-width: 1300px;
