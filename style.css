@@ -62,14 +62,14 @@ html{
 .navbar .menu li a{
 	display: block;
 	color: #fff;
-	font-size: 16px;
+	font-size: 24px;
 	text-shadow: 2px 4px black;
 	font-weight: 500;
 	margin-left: 25px;
 	transition: color 0.3s ease;
 }
 .menu i{
-	font-size: 12px;
+	font-size: 30px;
 }
 
 .navbar .menu li a:hover{
