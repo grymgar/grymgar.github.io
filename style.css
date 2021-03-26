@@ -136,6 +136,9 @@ html{
 .home .max-width{
 	margin: auto 0 auto 40px;
 }
+.home .home-content{
+	margin-top: 300px;
+}
 .home .home-content .text-1{
 	font-size: 27px;
 	text-shadow: 2px 2px black;
