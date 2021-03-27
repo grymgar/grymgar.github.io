@@ -124,7 +124,7 @@ html{
 /* home section styling */
 .home{
 	display: flex;
-	background: url("images/Banner.jpg") no-repeat center;
+	background: url("images/BannerProfile.jpg") no-repeat center;
 	height: 100vh;
 	color: #fff;
 	min-height:500px;
@@ -183,7 +183,7 @@ section{
 }
 .about, .services, .contact, .projects, footer{
 	font-family: 'Poppins', sans-serif;
-	background: url("images/GrayWood.jpg") no-repeat center;
+	background: url("images/Background.jpg") repeat center;
 	color: #f6f6f8;
 	border-bottom-style: groove;
 	border-bottom-width: 4px;
