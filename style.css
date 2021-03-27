@@ -25,10 +25,10 @@ html{
 }
 .navbar.sticky{
 	padding: 15px 0;
-	background: #222;
+	background: #343434;
 	border-bottom-style: solid;
 	border-bottom-width: 4px;
-	border-bottom-color: #8bff74;
+	border-bottom-color: #708090;
 	border-top-style: solid;
 	border-top-width: 4px;
 	border-top-color: #222;
@@ -287,7 +287,7 @@ section .title::after{
 /* services section style start */
 .services{
 	color: #fff;
-	background: #111;
+	background: #343434;
 }
 .services .title::before{
 	background: #fff;
@@ -297,7 +297,7 @@ section .title::after{
 }
 .services .serv-content .card{
 	width: calc(33% - 20px);
-	background: #708090;
+	background: #222;
 	text-align: center;
 	border-radius: 6px;
 	padding: 20px 25px;
@@ -495,7 +495,7 @@ section .title::after{
 
 /*footer section styling*/
 footer{
-	background: #222;
+	background: #343434;
 	padding: 20px 23px;
 }
 footer span{
