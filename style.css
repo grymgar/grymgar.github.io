@@ -99,6 +99,7 @@ html{
 	color: #fff;
 	z-index: 9999;
 	font-size: 30px;
+	text-shadow: 2px 2px black;
 	border-radius: 6px;
 	border: 2px solid #8bff74;
 	cursor: pointer;
