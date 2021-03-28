@@ -69,7 +69,7 @@ html{
 	transition: color 0.3s ease;
 }
 .menu i{
-	font-size: 30px;
+	font-size: 35px;
 }
 
 .navbar .menu li a:hover{
@@ -82,7 +82,7 @@ html{
 /*menu btn styling*/
 .menu-btn{
 	color: #8bff74;
-	font-size: 23px;
+	font-size: 30px;
 	text-shadow: 2px 2px black;
 	cursor: pointer;
 	display: none;
@@ -582,7 +582,7 @@ footer span{
 	.navbar .menu li a{
 		display: inline-block;
 		margin: 20px 0;
-		font-size: 16px;
+		font-size: 30px;
 	}
 	.home .home-content .text-2{
 		font-size: 70px;
