@@ -477,6 +477,23 @@ section .title::after{
 	height: 47px;
 	width: 170px;
 }
+.contact a{
+	width: 100%;
+	height: 100%;
+	border: 2px solid #8bff74;
+	background: #222;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.contact a:hover{
+	color: #222;
+	background: transparent;
+}
+}
 .contact .right form .button button{
 	width: 100%;
 	height: 100%;
@@ -489,6 +506,7 @@ section .title::after{
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
+
 .contact .right form .button button:hover{
 	color: #8bff74;
 	background: none;
