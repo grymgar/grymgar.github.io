@@ -278,6 +278,7 @@ section .title::after{
 }
 
 .about .about-content .right p{
+	text-indent: 25px;
 	text-align: justify;
 	text-shadow: 2px 1px black;
 }
@@ -371,8 +372,18 @@ section .title::after{
 /* Projects section styling */
 .projects .title::after{
 }
-.projects-content{
+
+.projects p{
+	text-indent: 25px;
+	text-align: justify;
+	text-shadow: 2px 1px black;
+	display: flex;
 	align-items: center;
+	justify-content: space-between;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 
