@@ -386,6 +386,15 @@ section .title::after{
 	margin-bottom: 50px;
 }
 
+.projects img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	border-radius: 6px;
+	box-shadow: 4px 4px black;
+	margin-left: 150px;
+}
+
 
 .wrap-element {
   position: relative;
@@ -694,6 +703,15 @@ footer span{
 	margin-left: 50px;
 }
 
+.projects img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	border-radius: 6px;
+	box-shadow: 4px 4px black;
+	margin-left: 50px;
+}
+
 @media (max-width: 412px) {
 	.about-content{
 		flex-direction: column;
@@ -723,6 +741,15 @@ footer span{
 	.about .about-content .right p{
 	margin-right: 50px;
 	margin-left: 50px;
+}
+
+.projects img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	border-radius: 6px;
+	box-shadow: 4px 4px black;
+	margin-left: 10px;
 }
 	
 }
