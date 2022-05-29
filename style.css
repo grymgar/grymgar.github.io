@@ -683,6 +683,15 @@ footer span{
 	}
 }
 
+@media (max-width: 540px) {
+	.projects img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	border-radius: 6px;
+	box-shadow: 4px 4px black;
+	margin-left: 50px;
+}
 	
 @media (max-width: 502px) {
 	.home .home-content .text-2{
@@ -705,7 +714,7 @@ footer span{
 
 .projects img{
 	height: 400px;
-	width: 400px;
+	width: 200px;
 	object-fit: cover;
 	border-radius: 6px;
 	box-shadow: 4px 4px black;
@@ -727,7 +736,7 @@ footer span{
 }
 @media (max-width: 360px) {
 	.about .about-content .left img{
-		width: 100%;
+		width: 75%;
 	}
 	.about-content{
 		flex-direction: column;
@@ -744,12 +753,11 @@ footer span{
 
 .projects img{
 	height: 400px;
-	width: 400px;
+	width: 200px;
 	object-fit: cover;
 	border-radius: 6px;
 	box-shadow: 4px 4px black;
 	margin-left: 10px;
-	margin-right:30px;
 }
 	
 }
