@@ -20,7 +20,7 @@ html{
 	width: 100%;
 	z-index: 999;
 	padding: 30px 0;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Alba Super', sans-serif;
 	transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -183,7 +183,7 @@ section{
 	padding: 100px 0;
 }
 .about, .services, .contact, .projects, footer{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	background: url("images/Background.jpg") repeat center;
 	color: #f6f6f8;
 	border-bottom-style: groove;
@@ -203,7 +203,7 @@ section .title{
 	font-weight: 500;
 	margin-bottom: 60px;
 	padding-bottom: 20px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Alba Super', sans-serif;
 	color: #f6f6f8;
 }
 section .title::before{
@@ -487,7 +487,7 @@ section .title::after{
 	outline: none;
 	padding: 0 15px;
 	font-size: 17px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 .contact .right form .textarea textarea{
 	padding-top: 10px;
